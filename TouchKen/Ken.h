@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-
 @class Ken;
+
+//這裡是 Protocol
 @protocol KenDelegate <NSObject>
 
 @optional
@@ -18,9 +19,7 @@
 - (void)didDropInGray:(long)tag;
 @end
 
-
-
-
+//這裡是 Class
 @interface Ken : UIView
 {
     CGPoint location;

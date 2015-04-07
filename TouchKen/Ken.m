@@ -77,6 +77,7 @@
     }
 }
 
+//向右
 - (void)GoRight
 {
     [UIView transitionWithView:self duration:.2 options:UIViewAnimationOptionTransitionNone animations:^{
@@ -93,6 +94,7 @@
     }];
 }
 
+//向左
 - (void)GoLeft
 {
     [UIView transitionWithView:self duration:.2 options:UIViewAnimationOptionTransitionNone animations:^{
