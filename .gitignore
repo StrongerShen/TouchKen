@@ -1,9 +1,5 @@
 # Xcode
-<<<<<<< HEAD
-.DS_Store
-=======
 #
->>>>>>> 3b1bb0ecc8498b38d876a9057b6ffc363026dc6a
 build/
 *.pbxuser
 !default.pbxuser
@@ -13,17 +9,6 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-<<<<<<< HEAD
-*.xcworkspace
-!default.xcworkspace
-xcuserdata
-profile
-*.moved-aside
-DerivedData
-.idea/
-# Pods - for those of you who use CocoaPods
-Pods
-=======
 xcuserdata
 *.xccheckout
 *.moved-aside
@@ -39,4 +24,3 @@ DerivedData
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
 #
 #Pods/
->>>>>>> 3b1bb0ecc8498b38d876a9057b6ffc363026dc6a
