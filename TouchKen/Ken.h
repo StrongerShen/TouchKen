@@ -28,9 +28,16 @@
 @property (strong, nonatomic) id<KenDelegate> delegate;
 
 - (Ken *)initWithPoint:(CGPoint)point atDirection:(int)direction;
+<<<<<<< HEAD
 - (void)GoRight;
 - (void)GoLeft;
 
+=======
+
+//默默加回來
+- (void)GoRight;
+- (void)GoLeft;
+>>>>>>> 696e054564413bc766a770dcb58d7ac5c4194dac
 @end
 
 
