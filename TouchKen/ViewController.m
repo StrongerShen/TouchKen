@@ -12,6 +12,7 @@
 @interface ViewController () <KenDelegate>
 {
     NSInteger nTag;
+    NSInteger test;
 }
 @property (weak, nonatomic) IBOutlet UIView *gray;
 @end
@@ -22,6 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     nTag = 1;
+
 }
 
 - (void)didReceiveMemoryWarning {
