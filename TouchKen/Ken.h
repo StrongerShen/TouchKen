@@ -29,7 +29,9 @@
 
 - (Ken *)initWithPoint:(CGPoint)point atDirection:(int)direction;
 
-
+//默默加回來
+- (void)GoRight;
+- (void)GoLeft;
 @end
 
 
